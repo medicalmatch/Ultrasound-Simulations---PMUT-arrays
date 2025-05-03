@@ -1,6 +1,7 @@
 Focused Ultrasound Simulation and pMUT Array Design
 
 Overview
+
 This repository contains code for designing, simulating, and visualizing the performance of PMUT arrays. The code includes tools for calculating key mechanical and acoustic parameters, visualizing ultrasound fields, and modeling phased array configurations.
 
 The scripts focus on:
