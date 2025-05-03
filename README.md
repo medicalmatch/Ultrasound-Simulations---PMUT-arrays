@@ -1,4 +1,5 @@
 Focused Ultrasound Simulation and pMUT Array Design
+
 Overview
 This repository contains code for designing, simulating, and visualizing the performance of PMUT arrays. The code includes tools for calculating key mechanical and acoustic parameters, visualizing ultrasound fields, and modeling phased array configurations.
 
@@ -25,6 +26,8 @@ Installation
 This project requires Python 3.8+ and the following libraries:
 
 pip install numpy scipy sympy matplotlib phidl pandas schemdraw
+
+
 Usage
 pMUT Design
 Define individual pMUT properties:
@@ -47,6 +50,8 @@ my_array = Columns_Array(
 )
 my_array.draw_layout()
 qp(my_array.layout)
+
+
 Focused Ultrasound Simulation
 Simulate and visualize the focused field:
 example_array.plot_directivity_function(
@@ -64,7 +69,3 @@ print(f"Focal Depth: {focal_depth:.3f} m")
 
 focal_depth = D**2 / (4 * wavelength)
 print(f"Focal Depth: {focal_depth:.3f} m")
-Credits
-This project includes components from a GitHub library that was under the MIT license for modeling pMUTs which I have since not been able to find! If you are the owner, please let me know if you took it down so that I can credit you properly.
-
-Enjoy designing your pMUT arrays and simulating focused ultrasound fields! 🎉
