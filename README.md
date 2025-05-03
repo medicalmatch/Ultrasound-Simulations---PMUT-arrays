@@ -54,6 +54,7 @@ qp(my_array.layout)
 
 
 Focused Ultrasound Simulation
+
 Simulate and visualize the focused field:
 example_array.plot_directivity_function(
     thetas=np.linspace(-np.pi/2, np.pi/2, 300),
@@ -61,6 +62,7 @@ example_array.plot_directivity_function(
     frequency=500e3,
     farfield=0.05
 )
+
 Example: Focal Depth Calculation
 The focal depth of an array can be estimated using:
 
